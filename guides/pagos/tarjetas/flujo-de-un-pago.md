@@ -5,7 +5,7 @@ title: Flujo de un pago
 
 Con Culqi, implementar pagos en tu sitio web o móvil resulta ser simple. En la siguiente ilustración podrás ver el flujo de trabajo completo:
 
-![flujo-pago](/img/pagos/flujo_pago.svg)
+![flujo-pago](/devsite/img/pagos/flujo_pago.svg)
 
 1. Tu sitio web o aplicación móvil, muestra el formulario de captura. Usando Culqi Checkout, Culqi JS o nuestras bibliotcas en iOS o Android
 2. El cliente ingresa la información de su tarjeta.

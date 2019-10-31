@@ -9,7 +9,7 @@ Hay que tomar en consideración el uso de la Culqi API en el diseño del flujo d
 
 En la siguiente ilustración podrás ver el flujo de trabajo completo de multipago:
 
-![flujo-pago](/img/pagos/flujo_pago.svg)
+![flujo-pago](/devsite/pagos/flujo_pago.svg)
 
 1. Desde tu servidor haces una petición a Culqi API para crear una orden.
 2. Tu sitio web o aplicación móvil, muestra el formulario de captura. Usando Culqi Checkout

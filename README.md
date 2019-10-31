@@ -1,2 +1,0 @@
-# culqi-docs
-Nuestra documentación
