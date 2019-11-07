@@ -1,6 +1,7 @@
 ---
 id: seguridad
 title: Guía de Seguridad en tu Integración
+sidebar_label: Seguridad
 ---
 
 En este artículo aprenderás cómo asegurar el correcto uso de la norma PCI DSS Compliance y las mejoras prácticas de comunicación entre tus clientes y servidores.

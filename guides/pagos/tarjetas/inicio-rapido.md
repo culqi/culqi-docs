@@ -20,9 +20,9 @@ El proceso de tokenización asegura que la información sensible de la tarjeta n
 
 Culqi proporciona las siguientes formas de tokenizar la información de pago de tu cliente de manera segura bajo HTTPS, para integrarte debes elegir cualquiera de ellas:
 
-- Culqi Checkout (Recomendada, la más simple)
-- Culqi.js (Checkout personalizado)
-- Móviles (Android e iOS)
+- [Culqi Checkout](#culqi-checkout) (Recomendada, la más simple)
+- [Culqi.js](#culqijs) (Checkout personalizado)
+- [Móviles](#moviles-ios-y-android) (Android e iOS)
 
 Para usar Culqi Checkout o Culqi JS debes tener instalado JQuery (librería de JavaScript)
 
@@ -53,11 +53,11 @@ Es la forma más rápida y simple de obtener los datos de tarjeta, además, brin
 </script>
 ```
 
-¿Te interesa este método? Si es así, por favor consulta la información detallada de cómo integrar Culqi Checkout para comenzar.
+¿Te interesa este método? Si es así, por favor consulta la información detallada de [cómo integrar Culqi Checkout](./capturar-tarjetas#culqi-checkout) para comenzar.
+ 
+### Culqi.js 
 
-### Culqi.js
-
-Puedes crear un formulario personalizado de acuerdo al diseño o marca de tu sitio web. Culqi.js tokeniza la información de la tarjeta directamente con Culqi. Para saber más, consulta información detallada para construir un formulario de pago con Culqi.js.
+Puedes crear un formulario personalizado de acuerdo al diseño o marca de tu sitio web. Culqi.js tokeniza la información de la tarjeta directamente con Culqi. Para saber más, consulta información detallada para construir un [formulario de pago con Culqi.js](./capturar-tarjetas#culqi-js).
 
 ### Móviles (iOS y Android)
 
@@ -69,8 +69,8 @@ Si vas a integrar Culqi para alguna plataforma móvil, puedes usar nuestra bibli
 
 Una vez creado un token, este debe ser enviado a tu servidor para realizar una petición al API de Culqi. Con este token tienes dos caminos:
 
-- Crear un cargo único
-- Crear cargos posteriores (One Click Payments)
+- [Crear un cargo único](#crear-un-cargo-unico)
+- [Crear cargos posteriores (One Click Payments)](#crear-cargos-posteriores)
 
 ### Crear un cargo único
 
@@ -324,5 +324,5 @@ new Charge(security).Create(map);
 
 ¡Felicitaciones! haz realizado tu primer cargo en Culqi, aquí hay unas cosas que pueden interesarte:
 
-- Pruebas
-- Pase a Producción
+- [Pruebas](./cargos#pruebas)
+- [Pase a Producción](../../desarrollo/pase-a-produccion)
