@@ -1,0 +1,154 @@
+/* your custom css */
+
+@font-face {
+    font-family: 'Druk-Bold'; 
+    src: url('../fonts/DrukText-Bold.otf'); 
+}
+
+@font-face {
+    font-family: 'Druk-Medium'; 
+    src: url('../fonts/DrukText-Medium.otf'); 
+}
+
+@font-face {
+    font-family: 'Druk-Super'; 
+    src: url('../fonts/DrukText-Super.otf'); 
+}
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+    .wrapper-contain .wrapper {
+        padding: 0 200px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .wrapper-contain .wrapper {
+        padding: 0 200px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .wrapper-contain .wrapper {
+        padding: 0 200px;
+    }
+}
+
+body {
+    font-size: 95%;
+}
+
+h1.main {
+    font-family: 'Druk-Super';
+    color: #39207c !important;
+}
+
+ 
+h1.main small{
+    font-family: 'Druk-Bold';
+    color: #26d07c !important;
+}
+
+h2.main {
+    font-family: 'Druk-Bold';
+    color: #26d07c !important;
+}
+
+.productShowcaseSection {
+    padding-top: 60px;
+}
+
+.white-p {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+ol {
+	list-style: none !important;
+	margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ol li {
+    counter-increment: step-counter;
+  }
+
+ol li:before {
+    
+	content: counter(step-counter);
+    margin-right: 10px;
+    font-size: 12px;
+    background-color: #26d07c;
+    color: white;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 2px;
+}
+ 
+blockquote {
+    font-size: 14px !important;
+}
+
+.docMainWrapper .mainContainer {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.light img {
+    width: 200px;
+}
+
+.blockContent {
+    text-align: left;
+}
+
+.paddingBottom {
+    text-align: left;
+}
+
+.sitemap div {
+    padding: 5px;
+}
+
+p code {
+    /* padding: 4px; */
+    font-size: 65%;
+    border: 1px solid #39207b;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #342677;
+    margin-left: 2px;
+    margin-right: 2px; 
+}
+
+table {
+    display: table; 
+    color: #666;
+    font-size: 95%;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1);
+}
+ 
+p {
+    color: #666;
+}
+
+li {
+    color: #666;
+}
+
+.icons p {
+    display: flex;
+}
+
+.icons svg {
+    width: 40px;
+}

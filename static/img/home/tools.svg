@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-11">
+            <circle id="Oval-11" fill="#E0F3F2" transform="translate(37.500000, 37.500000) rotate(-45.000000) translate(-37.500000, -37.500000) " cx="37.5" cy="37.5" r="37.5"></circle>
+            <rect id="Rectangle-42" fill="#20BEB3" transform="translate(55.602614, 19.397386) rotate(-45.000000) translate(-55.602614, -19.397386) " x="48.751652" y="17.233925" width="13.7019231" height="4.32692308"></rect>
+            <rect id="Rectangle-42" fill="#53D3CA" transform="translate(38.774832, 31.125840) rotate(-45.000000) translate(-38.774832, -31.125840) " x="31.9238704" y="29.6835326" width="13.7019231" height="2.88461538" rx="1.44230769"></rect>
+            <rect id="Rectangle-42" fill="#53D3CA" transform="translate(43.874160, 36.225168) rotate(-45.000000) translate(-43.874160, -36.225168) " x="37.0231981" y="34.7828604" width="13.7019231" height="2.88461538" rx="1.44230769"></rect>
+            <rect id="Rectangle-42" fill="#15AABF" transform="translate(53.817849, 21.182151) rotate(-45.000000) translate(-53.817849, -21.182151) " x="51.6543873" y="18.2975358" width="4.32692308" height="5.76923077" rx="1"></rect>
+            <path d="M42.0169154,17.1177 L54.4345252,17.7385805 C55.5421141,17.79396 56.4399923,18.7373033 56.4399923,19.8482158 L56.4399923,31.6948766 C56.4399923,32.8046165 55.5377642,33.7493499 54.4345252,33.8045118 L42.0169154,34.4253923 L42.0169154,17.1177 Z" id="Rectangle-41" fill="#53D3CA" transform="translate(49.228454, 25.771546) rotate(-45.000000) translate(-49.228454, -25.771546) "></path>
+            <rect id="Rectangle-41" fill="#20BEB3" transform="translate(44.129126, 30.870874) rotate(-45.000000) translate(-44.129126, -30.870874) " x="41.9656645" y="20.7747201" width="4.32692308" height="20.1923077" rx="2.16346154"></rect>
+            <g id="Group" transform="translate(26.000000, 50.000000) rotate(-90.000000) translate(-26.000000, -50.000000) translate(12.000000, 36.000000)">
+                <rect id="Rectangle-42" fill="#20BEB3" transform="translate(6.927185, 6.913891) scale(-1, 1) rotate(-45.000000) translate(-6.927185, -6.913891) " x="0.0762232775" y="4.75042925" width="13.7019231" height="4.32692308"></rect>
+                <rect id="Rectangle-42" fill="#15AABF" transform="translate(8.711950, 8.698655) scale(-1, 1) rotate(-45.000000) translate(-8.711950, -8.698655) " x="6.54848799" y="5.81404011" width="4.32692308" height="5.76923077" rx="1"></rect>
+                <path d="M6.08980604,4.63420432 L16.5144055,5.15543429 C18.7227036,5.2658492 20.512883,7.14447924 20.512883,9.3588646 L20.512883,17.2172363 C20.512883,19.4283119 18.7153527,21.3106193 16.5144055,21.4206667 L6.08980604,21.9418966 L6.08980604,4.63420432 Z" id="Rectangle-41" fill="#53D3CA" transform="translate(13.301345, 13.288050) scale(-1, 1) rotate(-45.000000) translate(-13.301345, -13.288050) "></path>
+                <rect id="Rectangle-41" fill="#20BEB3" transform="translate(18.400672, 18.387378) scale(-1, 1) rotate(-45.000000) translate(-18.400672, -18.387378) " x="16.2372107" y="8.29122437" width="4.32692308" height="20.1923077" rx="2.16346154"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
