@@ -237,21 +237,21 @@ Si crea su propio formulario de pago, deberás recopilar los números de tarjeta
 Puede crear tokens utilizando el método de instancia Culqi createToken pasando la información de la tarjeta
 
 ```java
-Card card = new Card(“411111111111111”, “123”, 9, 2020, “prueba_android@culqi.com”);
+  Card card = new Card(“411111111111111”, “123”, 9, 2020, “prueba_android@culqi.com”);
 
-Token token = new Token("{LLAVE PUBLICA}");
+  Token token = new Token("{LLAVE PUBLICA}");
 
-token.createToken(getApplicationContext(), card, new TokenCallback() {
-      @Override
-      public void onSuccess(JSONObject token) {
-            // token
-            token.get("id").toString()
-      }
+  token.createToken(getApplicationContext(), card, new TokenCallback() {
+        @Override
+        public void onSuccess(JSONObject token) {
+              // token
+              token.get("id").toString()
+        }
 
-      @Override
-      public void onError(Exception error) {
-      }
-});
+        @Override
+        public void onError(Exception error) {
+        }
+  });
 ```
 
 ### Paso 3: Enviar el Token a tu servidor
@@ -283,17 +283,17 @@ Si crea su propio formulario de pago, deberás recopilar los números de tarjeta
 Puede crear tokens utilizando el método utilizando el método de instancia Culqi createToken Pasando el número de la tarjeta, cvv, la fecha de vencimiento y un correo electrónico.
 
 ```objectivec
-CLQCard *card = [CLQCard newWithNumber:[numberFormatter numberFromString:self.txtFieldCardNumber.text]
-CVC:[numberFormatter numberFromString:self.txtFieldCVC.text]
-expMonth:[numberFormatter numberFromString:self.txtFieldExpMonth.text]
-expYear:[numberFormatter numberFromString:self.txtFieldExpYear.text]
-email:self.txtFieldEmail.text];
+  CLQCard *card = [CLQCard newWithNumber:[numberFormatter numberFromString:self.txtFieldCardNumber.text]
+  CVC:[numberFormatter numberFromString:self.txtFieldCVC.text]
+  expMonth:[numberFormatter numberFromString:self.txtFieldExpMonth.text]
+  expYear:[numberFormatter numberFromString:self.txtFieldExpYear.text]
+  email:self.txtFieldEmail.text];
 
-[[Culqi sharedInstance] createTokenForCard:card success:^(CLQToken * _Nonnull token) {
-    NSLog(@"Did create token with identifier: %@", token.identifier);
-} failure:^(NSError * _Nonnull error) {
-    NSLog(@"Error Creating token: %@", error.localizedDescription);
-}];
+  [[Culqi sharedInstance] createTokenForCard:card success:^(CLQToken * _Nonnull token) {
+      NSLog(@"Did create token with identifier: %@", token.identifier);
+  } failure:^(NSError * _Nonnull error) {
+      NSLog(@"Error Creating token: %@", error.localizedDescription);
+  }];
 ```
 
 ### Paso 3: Enviar el Token a tu servidor
