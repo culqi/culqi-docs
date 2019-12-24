@@ -152,7 +152,7 @@ Los cargos futuros se realizan con el Id de la Tarjeta creada. Este camino permi
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--PHP-->
-```php 
+```php
 <?php
 //Crear Cliente
 $culqi->Customers->create(
